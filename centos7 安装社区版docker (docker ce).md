@@ -56,6 +56,14 @@ $ sudo systemctl start docker
 ```shell
 $ sudo docker run hello-world
 ```
+⑤ 重启Docker
+```shell
+$ sudo systemctl restart docker
+```
+⑥ 停止Docker
+```shell
+$ sudo systemctl stop docker
+```
 此命令下载测试图像并在容器中运行。容器运行时，它会打印参考消息并退出。
 Docker Engine-Community已安装并正在运行。您需要使用sudo来运行Docker命令。继续进行Linux后安装，以允许非特权用户运行Docker
 
